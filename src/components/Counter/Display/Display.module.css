@@ -1,12 +1,36 @@
-import React from "react";
+.display
+{
+    font-size: 20px;
 
-type DisplayType = {
+    position: absolute;
+    top: 20px;
+    left: 50px;
 
+    width: 400px;
+    height: 300px;
+
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #bababa;
 }
-export function Display(props: DisplayType) {
-    return (
-        <div>
 
-        </div>
-    )
+.error
+{
+    font-size: 20px;
+
+    color: red;
+}
+
+
+.display_content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.display_content * {
+    margin: 10px;
 }

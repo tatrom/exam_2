@@ -1,13 +1,9 @@
-import React from "react";
-import {Display} from "./Display/Display";
-
-type CounterType = {
-
-}
-export function Counter (props: CounterType) {
-    return (
-        <div>
-            <Display />
-        </div>
-    )
+.counter {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #b6b8a9;
+    flex-shrink: 0;
 }
