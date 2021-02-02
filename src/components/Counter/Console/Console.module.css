@@ -1,0 +1,13 @@
+import React from "react";
+
+type ConsoleType = {
+
+}
+
+export function Console(props: ConsoleType) {
+    return (
+        <div>
+
+        </div>
+    )
+}

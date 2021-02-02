@@ -1,0 +1,12 @@
+import React from "react";
+
+type DisplayType = {
+
+}
+export function Display(props: DisplayType) {
+    return (
+        <div>
+
+        </div>
+    )
+}
